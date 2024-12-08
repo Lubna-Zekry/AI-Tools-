@@ -1,0 +1,10 @@
+pandas
+scikit-learn
+flask
+flask-cors
+tensorflow==2.11.0  
+Pillow
+numpy
+scipy
+transformers==4.29.0
+textblob

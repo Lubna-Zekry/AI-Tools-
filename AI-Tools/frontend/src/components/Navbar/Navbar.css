@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap");
+
+body {
+  font-family: "Amiri", serif;
+}
+
+.navbar {
+  background-color: #0f123f;
+  color: #ffffff;
+  padding: 15px 20px;
+}
+
+.navbar-brand {
+  color: #ffffff;
+  font-size: 1.7em;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand .react-icons {
+  font-size: 1.5em;
+  margin-right: 8px;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-size: 1.3em;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease;
+}
+
+.nav-link .react-icons {
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #426180;
+}
+.navbar-toggler {
+  border-color: #ffffff !important;
+  background-color: #ffffff !important;
+}
+
+.navbar-toggler-icon {
+  transition: transform 0.3s ease;
+}
+
+.navbar-toggler.collapsed .navbar-toggler-icon {
+  transform: rotate(90deg);
+}
+.navbar-brand,
+.nav-link {
+  color: #ffffff;
+  outline: none;
+}
+
+.navbar-brand:focus,
+.nav-link:focus,
+.navbar-brand:active,
+.nav-link:active {
+  color: #ffffff;
+  background-color: transparent;
+  outline: none;
+}

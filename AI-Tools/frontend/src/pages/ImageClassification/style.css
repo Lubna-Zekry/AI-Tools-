@@ -1,0 +1,116 @@
+button {
+  background-color: #0f123f !important;
+  color: white !important;
+  font-size: 1.1rem !important;
+  padding: 0.75rem !important;
+  border-radius: 0.5rem !important;
+  border: none !important;
+  transition: background-color 0.3s ease, transform 0.2s ease !important;
+}
+
+button:hover {
+  background-color: #7ae2e2 !important;
+  transform: scale(1.05) !important;
+}
+
+button:disabled {
+  background-color: #ccc;
+  border-color: #ccc;
+}
+
+.toggle-btn {
+  background-color: #0f123f !important;
+  color: white !important;
+  font-size: 1.1rem !important;
+  padding: 0.75rem 1.5rem !important;
+  border-radius: 0.5rem !important;
+  border: none !important;
+  transition: background-color 0.3s ease, transform 0.2s ease !important;
+  margin: 0 5px;
+}
+
+.toggle-btn:hover {
+  background-color: #7ae2e2 !important;
+  transform: scale(1.05) !important;
+}
+
+.toggle-btn:active,
+.toggle-btn:focus {
+  background-color: #7ae2e2 !important;
+  color: white !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.toggle-button-group-container {
+  display: flex;
+  justify-content: center; 
+  margin-bottom: 20px; 
+}
+
+.custom-input {
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  border: 1px solid #0f123f;
+  background-color: #f8f9fa;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.custom-input:focus {
+  border-color: #7ae2e2;
+  box-shadow: 0 0 0 0.25rem rgba(122, 226, 226, 0.5);
+}
+
+.uploaded-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border: 3px solid #0f123f;
+}
+
+.predictions-list {
+  list-style-type: none !important;
+  padding: 0 !important;
+  margin-top: 1.5rem !important;
+  font-size: 1.3em;
+}
+
+.prediction-item {
+  background-color: #ffffff !important;
+  color: #0f123f !important;
+  margin-bottom: 0.5rem !important;
+  padding: 20px 30px !important;
+  border-radius: 0.5rem !important;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1) !important;
+  transition: background-color 0.3s ease, transform 0.2s ease !important;
+  font-weight: bold !important;
+  border: 1px solid #0f123f;
+}
+
+.prediction-item:hover {
+  background-color: #e1f5f3 !important;
+  transform: scale(1.05);
+}
+
+.prediction-item strong {
+  color: #0f123f !important;
+  font-weight: 100 !important;
+  font-size: small !important;
+}
+
+.prediction-item p {
+  color: #f8f9fa;
+  font-size: 1.1rem !important;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.w-48 {
+  width: 48%;
+}
